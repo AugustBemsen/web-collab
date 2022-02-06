@@ -1,0 +1,23 @@
+{
+  "name": "web-collab",
+  "version": "1.0.0",
+  "description": "collaboration plugin for web",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AugustBemsen/web-collab.git"
+  },
+  "keywords": [
+    "collaboration",
+    "plugin"
+  ],
+  "author": "Daniel Bemsen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AugustBemsen/web-collab/issues"
+  },
+  "homepage": "https://github.com/AugustBemsen/web-collab#readme"
+}
