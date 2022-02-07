@@ -25,6 +25,16 @@
       />
     </svg>
 
+    <script src="/path/to/engine.io.js"></script>
+    <script>
+      // eio = Socket
+      const socket = eio("ws://localhost");
+      socket.on("open", () => {
+        socket.on("message", (data) => {});
+        socket.on("close", () => {});
+      });
+    </script>
+
     <script src="./app.js"></script>
   </body>
 </html>
