@@ -1,9 +1,0 @@
-html {
-    cursor: none;
-    overflow: hidden;
-}
-
-.mouse {
-    position: absolute;
-    transform: translate(-50%, -50%);
-}
