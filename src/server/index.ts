@@ -9,7 +9,6 @@ const io = new Server(httpServer, {
 let users: any[] = [];
 
 io.on("connection", (socket) => {
-  console.log("user connected");
 
   socket.on("message", (message) => {
     // console.log("message", message);
